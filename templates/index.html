@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<h1 align="center"> Input LinkedIn Info </h1>
+{% endblock %}
+
+{% block body %} 
+ <div class="content" align="center">
+
+
+    <form action = "/" method="POST">
+        Username 
+        <input type="email" name="Username" id="user"> <br><br>
+
+        Password
+        <input type="Password" name="Password" id="'pwd"> <br><br>
+        <input type="submit">
+    </form>
+ </div>
+{% endblock %}
+
